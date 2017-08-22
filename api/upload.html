@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multiple Upload</title>
+</head>
+<body>
+    <p>Please upload some images.</p>
+    <form action="http://localhost/kct-dev/api/index.php/user/upload" enctype="multipart/form-data" method="post">
+        <input type="file" name="uploads[]" multiple="multiple"/><br/>
+        <input type="submit" value="Upload Now"/>
+    </form>
+</body>
+</html>

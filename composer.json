@@ -1,0 +1,14 @@
+{
+    "require": {
+        "slim/slim": "3.*",
+        "ircmaxell/password-compat": "1.0.4",
+        "ramsey/uuid": "~2.7",
+        "lichtner/fluentpdo": "dev-master",
+        "cocur/slugify": "^2.3"
+    },
+    "autoload": {
+        "psr-7": {
+            "KCTAPI\\": "api"
+        }
+    }
+}
